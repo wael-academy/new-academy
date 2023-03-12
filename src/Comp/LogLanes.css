@@ -1,0 +1,49 @@
+.Log-lanes {
+    background-color: var(--section-color);
+    min-height: 100vh;
+    padding: 10px 250px;
+}
+@media (max-width: 850px) {
+    .Log-lanes {
+        padding: 15px;
+    }
+}
+.Log-lanes h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+.Log-lanes label {
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+.Log-lanes input,
+.Log-lanes select {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.Log-lanes input:focus,
+.Log-lanes select:focus {
+    outline: 2px solid var(--main-color);
+}
+.Log-lanes button {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 10px 70px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    transition: 0.3s;
+}
+.Log-lanes button:hover {
+    background-color: var(--hover-color);
+}

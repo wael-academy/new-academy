@@ -1,0 +1,28 @@
+.container {
+    min-height: 100vh;
+    background-color: var(--section-color);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.container a {
+    background-color: #4CAF50;
+    width: 250px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #777;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container a:hover {
+    background-color: #459d48;
+}
