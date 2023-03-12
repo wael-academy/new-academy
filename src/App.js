@@ -6,7 +6,6 @@ import DataLanes from "./Comp/DataLanes";
 import DataSwimmers from "./Comp/DataSwimmer";
 import LogLanes from "./Comp/LogLanes";
 import LogSwimmer from "./Comp/LogSwimmer";
-import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import Home from "./Comp/Home";
 const firebaseConfig = {
@@ -18,7 +17,7 @@ const firebaseConfig = {
   appId: "1:966808763653:web:d001ca6c4c632302664b6c",
 };
 
-const app = initializeApp(firebaseConfig);
+
 const db = getFirestore();
 
 class App extends React.Component {
