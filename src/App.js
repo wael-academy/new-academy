@@ -8,14 +8,6 @@ import LogLanes from "./Comp/LogLanes";
 import LogSwimmer from "./Comp/LogSwimmer";
 import { getFirestore } from "firebase/firestore";
 import Home from "./Comp/Home";
-const firebaseConfig = {
-  apiKey: "AIzaSyCCMigwDxEjkjdEu6CjcTw1UTTn-JsydUM",
-  authDomain: "wael-academy.firebaseapp.com",
-  projectId: "wael-academy",
-  storageBucket: "wael-academy.appspot.com",
-  messagingSenderId: "966808763653",
-  appId: "1:966808763653:web:d001ca6c4c632302664b6c",
-};
 
 
 const db = getFirestore();
